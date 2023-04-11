@@ -13,7 +13,8 @@ namespace LeetCode_NET_
         {
             var obj = new TwoSum();
 
-            obj._TwoSum(new int[] { 2, 7, 11, 15 }, 9);
+            var oo = obj._TwoSum(new int[] { 3, 3 }, 6);
+            Console.WriteLine(oo);
         }
     }
 }
